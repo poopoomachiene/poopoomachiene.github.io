@@ -16,8 +16,19 @@ p {
     font-size: 20px;
 }
 
-jumbotron {
+.jumbotron {
+  background-color: #ffffff;
   outline-color: #000000;
   outline-width: thick;
-  background-color: #ffffff;
+  outline-style: groove;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
 }
