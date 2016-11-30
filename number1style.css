@@ -15,3 +15,9 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
+
+jumbotron {
+  outline-color: #000000;
+  outline-width: thick;
+  background-color: #ffffff;
+}
