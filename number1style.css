@@ -34,7 +34,7 @@ p {
 }
 
 b {
-  font-size: 120px;
+  font-size: 100px;
   font-family: "Times New Roman", Times, serif;
   b:link    {color:#000000; background-color:transparent; text-decoration:none}
   b:visited {color:#cc9900; background-color:transparent; text-decoration:none}
