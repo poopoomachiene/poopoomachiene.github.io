@@ -32,3 +32,11 @@ p {
   padding: 1px;
   width: auto;
 }
+
+b {
+  font-size: 120px;
+  font-family: "Times New Roman", Times, serif;
+  b:link    {color:#000000; background-color:transparent; text-decoration:none}
+  b:visited {color:#cc9900; background-color:transparent; text-decoration:none}
+  b:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
+}
