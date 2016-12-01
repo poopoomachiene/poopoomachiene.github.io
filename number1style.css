@@ -36,7 +36,20 @@ p {
 h2 {
   font-size: 90px;
   font-family: "Times New Roman", Times, serif;
-  b:link    {color:#000000; background-color:transparent; text-decoration:none}
-  b:visited {color:#cc9900; background-color:transparent; text-decoration:none}
-  b:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: gold;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: red;
 }
