@@ -8,6 +8,8 @@
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="number1style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
       <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
       <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -25,12 +27,22 @@
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
       <meta name="theme-color" content="#ffffff">
+      <style>
+    .affix {
+        top: 0;
+        width: 100%;
+    }
+
+    .affix + .container-fluid {
+        padding-top: 70px;
+    }
+    </style>
 
       <title>Final Project Potatos</title>
 
     </head>
     <body>
-      <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+      <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="0">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">
