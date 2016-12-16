@@ -30,24 +30,39 @@
 
     </head>
     <body>
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">
             <img src="Potato v Poo v1.png" alt="">
             </a>
           </div>
-          <ul class="nav navbar-nav">
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="TheWar">The War</a></li>
+          <ul class="nav navbar-nav hidden-sm hidden-xs">
+            <li><a href="Home.html">The War</a></li>
+            <li><a href="TheWar.html">The War</a></li>
             <li><a href="Atrocities.html">Atrocities</a></li>
             <li><a href="ThePotatos.html">The Potatos</a></li>
-            <li><a href="TheVictories.html" class="current">TheVictories</a></li>
+            <li class= "active"><a href="TheVictories.html">Home</a></li>
             <li><a href="TheHeroes.html">The Heroes</a></li>
-            <li><a href="BeAHero.html">Be a Hero</a></li>
+            <li><a href="BeAHero.html">The Heroes</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
-          </form>
+          <div class="dropdown">
+            <ul class="nav navbar-nav dropdown hidden-md hidden-lg">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Be Enligtened
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="TheWar">The War</a></li>
+                    <li><a href="Atrocities.html">Atrocities</a></li>
+                    <li><a href="ThePotatos.html">The Potatos</a></li>
+                    <li><a href="TheVictories.html">Victories</a></li>
+                    <li><a href="TheHeroes.html">The Heroes</a></li>
+                    <li><a href="BeAHero.html">Be a Hero</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
