@@ -53,3 +53,8 @@ a:hover {
 a:active {
     color: red;
 }
+@media (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+}
